@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: python-snap7
-  version: "3.3.0"
+  version: "3.3.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/python_snap7-${{ version }}.tar.gz
-  sha256: cd4d6a3eb3f199c78a1725e54a437ef664da7988c10817e8b19b58ed99ef8b04
+  sha256: 1f1f6f3590eb095c4eb2b3c4e43dde529d9ac1d23acea07308186ce0cae2d167
 
 build:
   number: 0
